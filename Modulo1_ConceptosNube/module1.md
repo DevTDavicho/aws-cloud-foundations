@@ -254,7 +254,7 @@ Estas tecnologías permiten que una aplicación haga una solicitud a otra aplica
 - Facilitan la integración entre sistemas diferentes.
 - Son la base para aplicaciones modernas como banca online, redes sociales, e-commerce, entre otros.
 
-#### ☁️ ¿Qué es AWS?
+### ☁️ ¿Qué es AWS?
 Amazon Web Services (AWS) es una plataforma de servicios en la nube que ofrece una amplia gama de soluciones tecnológicas distribuidas globalmente.
 
 **🧩 Características clave de AWS:**
@@ -264,7 +264,7 @@ Amazon Web Services (AWS) es una plataforma de servicios en la nube que ofrece u
 - **Sigues un modelo de pago por uso:** solo pagas por lo que consumes.
 - Sus servicios trabajan en conjunto como bloques de construcción que puedes combinar y escalar según tu proyecto.
 
-#### 🧱 Categorías de los servicios de AWS
+### 🧱 Categorías de los servicios de AWS
 AWS ofrece más de 200 servicios organizados en categorías, según su propósito y funcionalidad. Estas categorías permiten a las empresas construir soluciones completas y personalizadas en la nube.
 
 Algunas de las categorías más utilizadas incluyen:
@@ -281,7 +281,7 @@ Algunas de las categorías más utilizadas incluyen:
     <img src="../img/categoryAWS.png" alt="Servicios de AWS" width="70%">
 </p>
 
-#### 🧩 Ejemplo de una solución sencilla en AWS
+### 🧩 Ejemplo de una solución sencilla en AWS
 Una solución básica en la nube de AWS puede combinar distintos servicios que trabajan juntos dentro de una VPC (Virtual Private Cloud). Por ejemplo:
 - Amazon EC2 para ejecutar aplicaciones.
 - Amazon DynamoDB como base de datos NoSQL.
@@ -292,7 +292,7 @@ Una solución básica en la nube de AWS puede combinar distintos servicios que t
     <img src="../img/arquiSolSencilla.png" alt="Arquitectura de AWS" width="70%">
 </p>
 
-#### 🔧 Elección de un servicio
+### 🔧 Elección de un servicio
 La selección del servicio adecuado depende de tus objetivos y requisitos tecnológicos. AWS ofrece varias opciones para ejecutar aplicaciones, como:
 - Amazon EC2 (máquinas virtuales)
 - AWS Lambda (funciones sin servidor)
@@ -303,7 +303,7 @@ La selección del servicio adecuado depende de tus objetivos y requisitos tecnol
     <img src="../img/eleccionServicio.png" alt="Arquitectura de AWS" width="70%">
 </p>
 
-#### 📦 Servicios que se tratan en este curso
+### 📦 Servicios que se tratan en este curso
 Durante el curso se abordarán los principales servicios de AWS, agrupados por categorías:
 - Informática, almacenamiento, bases de datos
 - Seguridad y administración
@@ -314,7 +314,7 @@ Durante el curso se abordarán los principales servicios de AWS, agrupados por c
     <img src="../img/serviciosCurso.png" alt="Arquitectura de AWS" width="70%">
 </p>
 
-#### 🖥️ Tres formas de interactuar con AWS
+### 🖥️ Tres formas de interactuar con AWS
 Puedes acceder a los servicios de AWS de tres maneras principales:
 - Consola de administración: interfaz gráfica sencilla y visual.
 - CLI (Command Line Interface): comandos para automatizar tareas.
@@ -327,3 +327,144 @@ Puedes acceder a los servicios de AWS de tres maneras principales:
 ---
 
 ## Sección 4: Migración a la nube de AWS
+### 🧭 ¿Qué es el CAF de AWS?
+El CAF ofrece orientación y buenas prácticas para adoptar la nube considerando todo el ciclo de vida de la TI dentro de la organización. Su objetivo es acelerar una adopción satisfactoria y segura de la nube.
+
+Está organizado en seis perspectivas, que representan áreas clave dentro de cualquier empresa.
+
+🔹 Las seis perspectivas del AWS CAF
+| Perspectiva     | Enfoque principal                                   |
+| --------------- | --------------------------------------------------- |
+| **Negocio**     | Metas comerciales, retorno de inversión, estrategia |
+| **Gente**       | Cultura organizacional, talento, liderazgo          |
+| **Gobernanza**  | Cumplimiento, control de riesgos, políticas         |
+| **Plataforma**  | Arquitectura técnica, redes, sistemas               |
+| **Seguridad**   | Protección de datos, identidad, cumplimiento        |
+| **Operaciones** | Gestión, monitoreo y soporte continuo               |
+
+**✅ ¿Para qué sirve el CAF?**
+- Evalúa la preparación de la organización para la nube.
+- Identifica brechas y áreas que necesitan fortalecerse.
+- Alinea la tecnología con los objetivos del negocio.
+- Ayuda a migrar con una visión integral, no solo técnica.
+
+### 🔍 Clasificación de las perspectivas del AWS CAF
+Las seis perspectivas del CAF se agrupan en dos grandes enfoques:
+
+| **Capacidades empresariales** | **Capacidades técnicas** |
+| ----------------------------- | ------------------------ |
+| Negocio                       | Plataforma               |
+| Gente                         | Seguridad                |
+| Gobernanza                    | Operaciones              |
+
+
+### 🧩 Perspectiva de Negocio (Business)
+La perspectiva de negocio del CAF de AWS se enfoca en alinear la tecnología con los objetivos estratégicos de la organización. Busca garantizar que las inversiones en TI:
+- Estén en consonancia con las necesidades empresariales.
+- Generen beneficios comerciales medibles.
+
+📌 Incluye capacidades como:
+- Finanzas de TI
+- Estrategia de TI
+- Realización de beneficios
+- Gestión de riesgos empresariales
+
+👥 ¿Quiénes la aplican?
+
+Gerentes comerciales, responsables de finanzas, líderes de estrategia y tomadores de decisiones.
+
+<p align="center">
+    <img src="../img/perspectivaNegocio.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+### 🧩 Perspectiva del Personal (Gente)
+Esta perspectiva se centra en el recurso humano y el cambio organizacional necesario para adoptar la nube de forma exitosa. Promueve una cultura de mejora continua mediante:
+- Formación técnica
+- Gestión del talento
+- Adaptación al cambio
+
+Incluye capacidades como:
+- Administración de recursos humanos
+- Incentivos y desarrollo profesional
+- Formación técnica
+- Gestión de cambios organizacionales
+
+👥 ¿Quiénes la aplican?
+- Directores de recursos humanos
+- Líderes de personal y cultura organizacional
+
+<p align="center">
+    <img src="../img/perspectivaPersonal.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+### 🧩 Perspectiva de la Gobernanza
+La perspectiva de gobernanza busca alinear los procesos, las habilidades y las decisiones de TI con los objetivos estratégicos del negocio, garantizando control, cumplimiento y valor en las inversiones tecnológicas.
+
+Incluye capacidades como:
+- Administración de portafolios
+- Gestión de proyectos y programas
+- Evaluación del rendimiento empresarial
+- Administración de licencias
+
+👥 ¿Quiénes la aplican?
+
+CIOs, directores de programas, arquitectos empresariales, analistas de negocio y gestores de portafolios.
+
+<p align="center">
+    <img src="../img/perspectivaGobernanza.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+### 🧩 Perspectiva de la Plataforma
+Esta perspectiva se enfoca en la infraestructura técnica que soporta las aplicaciones y servicios en la nube. Es clave para definir la arquitectura del entorno de destino, entendiendo cómo se interconectan y escalan los diferentes componentes.
+
+Incluye capacidades como:
+- Aprovisionamiento de informática, red y almacenamiento
+- Bases de datos
+- Desarrollo de aplicaciones
+- Arquitectura de sistemas y soluciones
+
+👥 ¿Quiénes la aplican?
+
+Directores de TI, CTOs (Chief Technology Officers), arquitectos de soluciones.
+
+<p align="center">
+    <img src="../img/perspectivaPlataforma.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+### 🧩 Perspectiva de Seguridad
+La perspectiva de seguridad busca garantizar que la organización cumpla sus objetivos de protección de la información y gestione correctamente los riesgos en la nube.
+
+Incluye capacidades como:
+- Administración de identidad y acceso (IAM)
+- Control de detección (monitoreo, alertas)
+- Seguridad de la infraestructura
+- Protección de datos sensibles
+- Respuesta ante incidentes de seguridad
+
+👥 ¿Quiénes la aplican?
+
+- CISOs (directores de seguridad de la información)
+- Administradores de seguridad
+- Analistas de seguridad de TI
+
+<p align="center">
+    <img src="../img/perspectivaSeguridad.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+### 🧩 Perspectiva de Operaciones
+Esta perspectiva se centra en mantener el funcionamiento constante y eficiente de los servicios de TI en la nube, alineados con las operaciones del negocio. Define cómo se administran los procesos diarios, trimestrales y anuales.
+
+Incluye capacidades como:
+- Monitoreo de servicios y rendimiento
+- Administración de recursos y versiones
+- Informes, análisis y control de cambios
+- Continuidad del negocio y recuperación ante desastres
+- Catálogo de servicios de TI
+
+👥 ¿Quiénes la aplican?
+- Directores de operaciones de TI
+- Líderes de soporte técnico
+
+<p align="center">
+    <img src="../img/perspectivaOperaciones.png" alt="Arquitectura de AWS" width="70%">
+</p>
