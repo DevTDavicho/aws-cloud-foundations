@@ -155,6 +155,86 @@ Aunque la informática en la nube funciona de forma diferente a la tradicional, 
 ---
 
 ## Sección 2: Ventajas de la informática en la nube
+### 💰 Cambiar gastos de capital por gastos variables
+En un entorno tradicional, las empresas deben realizar grandes inversiones iniciales en infraestructura (gastos de capital), como comprar servidores y montar centros de datos.
+
+Con la nube, este modelo cambia:
+- Solo pagas por lo que usas, como un servicio público (luz, agua).
+- No es necesario prever la capacidad exacta, ya que puedes ajustar el uso según la demanda.
+
+🧩 Ejemplo visual:
+- Antes (Capital): Inviertes en servidores esperando la demanda futura.
+- Ahora (Variable): Pagas solo por la capacidad real que consumes.
+
+📌 Beneficios:
+- Reduce los costos iniciales.
+- Mejora la flexibilidad financiera.
+- Permite comenzar con pocos recursos y escalar si es necesario.
+
+### 📉 Economías de escala masivas
+Gracias a que millones de usuarios utilizan los servicios de AWS, la empresa puede operar su infraestructura a gran escala. Esto le permite obtener costos más bajos por unidad de servicio (almacenamiento, procesamiento, red, entre otros).
+
+**🧠 ¿Qué significa esto para ti?**
+- AWS puede transferir esos ahorros a sus clientes.
+- Mientras más usuarios usen la nube, más barata resulta para todos.
+
+**🧩 Ejemplo visual:**
+- AWS ofrece precios más bajos porque compra hardware y recursos en grandes volúmenes.
+- El cliente final recibe una factura más baja por el uso de servicios.
+
+**📌 Beneficios:**
+- Reducción continua de precios.
+- Acceso a tecnología de primer nivel a menor costo.
+- No necesitas tener infraestructura propia para acceder a eficiencia operativa.
+
+### 📈 Evitar asumir estimaciones sobre capacidad
+En un entorno tradicional, las empresas deben adivinar cuánta capacidad necesitarán en el futuro. Esto puede llevar a dos problemas:
+- Sobrestimar la capacidad: Se compran más servidores de los necesarios → se desperdician recursos y dinero.
+- Subestimar la capacidad: No hay suficientes servidores → la aplicación se satura o falla.
+
+Con la nube, este problema desaparece gracias al ajuste automático bajo demanda.
+
+**🧠 ¿Cómo funciona?**
+- AWS permite aumentar o reducir recursos automáticamente según la carga de trabajo.
+- Ya no tienes que preocuparte por calcular cuántos servidores vas a necesitar dentro de seis meses.
+
+**🧩 Ejemplo visual:**
+- Si hay mucha demanda, se activan más instancias.
+- Si la demanda baja, se desactivan para no generar costos innecesarios.
+
+**📌 Beneficios:**
+- Optimiza el uso de recursos.
+- Evita pagar por capacidad no usada.
+- Mejora el rendimiento sin interrupciones.
+
+#### 🏢 Dejar de gastar en la ejecución y mantenimiento de centros de datos
+Tradicionalmente, las empresas deben invertir en:
+- Personal (nómina)
+- Servicios básicos (electricidad, refrigeración, mantenimiento)
+- Seguridad física, paisajería, y más
+- Equipos costosos de hardware
+
+Con la nube, todo esto lo asume el proveedor de servicios (como AWS). Ya no necesitas gestionar tu propio centro de datos.
+
+**🧩 Ejemplo visual:**
+- En lugar de gastar dinero en instalaciones físicas, puedes enfocar tus recursos en innovar y atender a tus clientes.
+
+**📌 Beneficios:**
+- Reducción significativa de costos operativos.
+- Menos carga administrativa y técnica.
+- Mayor enfoque en el crecimiento del negocio.
+
+#### 🌍 Adquirir escala mundial en cuestión de minutos
+Con la nube, puedes implementar tus servicios en centros de datos distribuidos por todo el mundo con solo unos clics. Esto te permite acercarte a tus usuarios, reducir la latencia y ofrecer mejor rendimiento.
+
+**🧩 Ejemplo visual:**
+- AWS tiene regiones en América, Europa, Asia y otros continentes.
+- Puedes lanzar una aplicación en EE.UU., replicarla en Asia o Europa y mantener la sincronización fácilmente.
+
+**📌 Beneficios:**
+- Expansión internacional sin necesidad de presencia física.
+- Mejora de la experiencia del usuario por cercanía geográfica.
+- Alta disponibilidad global.
 ---
 
 ## Sección 3: Introducción a AWS
