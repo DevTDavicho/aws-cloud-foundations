@@ -278,8 +278,52 @@ Algunas de las categorías más utilizadas incluyen:
 - Internet de las cosas (IoT) y robótica, entre muchas otras.
 
 <p align="center">
-  <img src="/img/categoryAWS.png" alt="Servicios de AWS" width="70%">
+    <img src="../img/categoryAWS.png" alt="Servicios de AWS" width="70%">
 </p>
+
+#### 🧩 Ejemplo de una solución sencilla en AWS
+Una solución básica en la nube de AWS puede combinar distintos servicios que trabajan juntos dentro de una VPC (Virtual Private Cloud). Por ejemplo:
+- Amazon EC2 para ejecutar aplicaciones.
+- Amazon DynamoDB como base de datos NoSQL.
+- Amazon S3 para almacenar archivos como imágenes o backups.
+- Todo esto operando dentro de una red privada segura.
+
+<p align="center">
+    <img src="../img/arquiSolSencilla.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+#### 🔧 Elección de un servicio
+La selección del servicio adecuado depende de tus objetivos y requisitos tecnológicos. AWS ofrece varias opciones para ejecutar aplicaciones, como:
+- Amazon EC2 (máquinas virtuales)
+- AWS Lambda (funciones sin servidor)
+- Elastic Beanstalk, Fargate, ECS, EKS (contenedores)
+- Lightsail, Batch, Outposts, entre otros.
+
+<p align="center">
+    <img src="../img/eleccionServicio.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+#### 📦 Servicios que se tratan en este curso
+Durante el curso se abordarán los principales servicios de AWS, agrupados por categorías:
+- Informática, almacenamiento, bases de datos
+- Seguridad y administración
+- Redes y entrega de contenido
+- Costos y monitoreo
+
+<p align="center">
+    <img src="../img/serviciosCurso.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
+#### 🖥️ Tres formas de interactuar con AWS
+Puedes acceder a los servicios de AWS de tres maneras principales:
+- Consola de administración: interfaz gráfica sencilla y visual.
+- CLI (Command Line Interface): comandos para automatizar tareas.
+- SDK (Software Development Kit): acceso desde lenguajes como Python, Java, Node.js, etc.
+
+<p align="center">
+    <img src="../img/tresInteractuarAWS.png" alt="Arquitectura de AWS" width="70%">
+</p>
+
 ---
 
 ## Sección 4: Migración a la nube de AWS
