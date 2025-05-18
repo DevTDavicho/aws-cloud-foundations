@@ -238,6 +238,48 @@ Con la nube, puedes implementar tus servicios en centros de datos distribuidos p
 ---
 
 ## Sección 3: Introducción a AWS
+### 🌐 ¿Qué son los servicios web?
+Un servicio web es cualquier software que se pone a disposición por medio de Internet y que permite la comunicación entre aplicaciones a través de un formato estandarizado, como:
+- XML (Extensible Markup Language)
+- JSON (JavaScript Object Notation)
+
+Estas tecnologías permiten que una aplicación haga una solicitud a otra aplicación remota (por ejemplo, un servidor) y reciba una respuesta. Esto sucede mediante una interfaz de programación de aplicaciones o API (Application Programming Interface).
+
+**🧩 Ejemplo visual:**
+- Un cliente (como una laptop o app móvil) envía un mensaje de solicitud por internet.
+- El servicio web recibe el mensaje, lo procesa y envía una respuesta.
+
+**📌 Beneficios de los servicios web:**
+- Permiten automatizar procesos.
+- Facilitan la integración entre sistemas diferentes.
+- Son la base para aplicaciones modernas como banca online, redes sociales, e-commerce, entre otros.
+
+#### ☁️ ¿Qué es AWS?
+Amazon Web Services (AWS) es una plataforma de servicios en la nube que ofrece una amplia gama de soluciones tecnológicas distribuidas globalmente.
+
+**🧩 Características clave de AWS:**
+- Es una plataforma segura y global, utilizada por millones de organizaciones.
+- Proporciona acceso bajo demanda a recursos como servidores, almacenamiento, redes, bases de datos, análisis, inteligencia artificial, entre otros.
+- **Permite una alta flexibilidad:** puedes elegir exactamente los servicios que necesitas.
+- **Sigues un modelo de pago por uso:** solo pagas por lo que consumes.
+- Sus servicios trabajan en conjunto como bloques de construcción que puedes combinar y escalar según tu proyecto.
+
+#### 🧱 Categorías de los servicios de AWS
+AWS ofrece más de 200 servicios organizados en categorías, según su propósito y funcionalidad. Estas categorías permiten a las empresas construir soluciones completas y personalizadas en la nube.
+
+Algunas de las categorías más utilizadas incluyen:
+- **Informática:** procesamiento de datos, servidores virtuales (por ejemplo, EC2).
+- **Almacenamiento:** almacenamiento de archivos, copias de seguridad y recuperación (como Amazon S3).
+- **Bases de datos:** servicios como Amazon RDS, DynamoDB, Aurora.
+- **Redes y entrega de contenido:** conexión entre sistemas y distribución global de contenido (Amazon CloudFront, VPC).
+- **Seguridad, identidad y conformidad:** gestión de usuarios y protección de datos (IAM, KMS).
+- **Machine Learning:** modelos de aprendizaje automático (Amazon SageMaker).
+- Desarrollo de aplicaciones móviles y multimedia.
+- Internet de las cosas (IoT) y robótica, entre muchas otras.
+
+<p align="center">
+  <img src="/img/categoryAWS.png" alt="Servicios de AWS" width="70%">
+</p>
 ---
 
 ## Sección 4: Migración a la nube de AWS
