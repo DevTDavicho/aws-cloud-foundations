@@ -9,6 +9,7 @@ Este repositorio contiene resúmenes de módulos, comandos, configuraciones clav
 ## 📂 Estructura del curso
 
 - [Módulo 1:](Modulo1_ConceptosNube/module1.md) Información general sobre los conceptos de la nube
+- [Módulo 2:](Modulo2_FacturacionEconomia/module2.md) Facturación y economía de la nube
 
 ---
 
