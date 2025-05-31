@@ -205,10 +205,132 @@ Más allá del ahorro en infraestructura, la nube ofrece ventajas operativas y e
 
 ## Sección 3: **AWS Organizations**
 
+### 🧩 **¿Qué es AWS Organizations?**
+- Servicio que permite administrar múltiples cuentas de AWS desde una organización centralizada.
+- Permite aplicar políticas de acceso, administrar facturación y organizar cuentas según necesidades empresariales.
+
+Beneficios principales:
+- Políticas centralizadas de acceso.
+- Acceso controlado a servicios.
+- Creación automatizada de cuentas.
+- Facturación unificada entre cuentas.
+
+### 🌳 **Estructura y Terminología**
+- Root: punto más alto de la jerarquía.
+- OU (Organizational Unit): unidad organizativa que agrupa cuentas.
+- Cuentas: pueden estar dentro de una OU.
+- Se organiza como un árbol: root → OU → cuentas.
+
+### ⚙️ **Funciones principales y beneficios**
+- Políticas SCP (Service Control Policies): controlan acceso a servicios de AWS.
+- Grupos de cuentas: permiten aplicar políticas a conjuntos de cuentas.
+- APIs (Interfaces de programación): automatizan creación y administración.
+- Facturación unificada: una sola factura para todas las cuentas.
+
+### 🔒 **Seguridad con AWS Organizations**
+- IAM no se reemplaza, sino que se complementa con SCPs.
+- IAM aplica a usuarios, grupos y roles de una cuenta.
+- SCPs se aplican a cuentas completas o grupos dentro de una OU.
+
+### **🛠️ Configuración de AWS Organizations**
+
+Pasos:
+1. Crear una organización.
+2. Crear unidades organizativas (OUs).
+3. Crear políticas de control de servicios (SCP).
+4. Aplicar restricciones y probar la configuración.
+
+
+### **📊 Límites de AWS Organizations**
+- Máximo de 1 root.
+- 1000 OUs.
+- 1000 políticas.
+- Tamaño máximo por política: 5120 bytes.
+- 5 niveles de anidamiento de OUs.
+- 20 invitaciones por día.
+
+### **🖥️ Acceso a AWS Organizations**
+Se puede gestionar a través de:
+- Consola de administración de AWS
+- CLI de AWS
+- SDKs (Kits de desarrollo de software)
+- API HTTPS
+
 ---
 
 ## Sección 4: **Administración de costos y facturación de AWS**
 
+### **📌 ¿Qué es?**
+La Administración de facturación y costos de AWS permite pagar facturas, supervisar el uso y presupuestar los costos. Ayuda a prever gastos y entender patrones de consumo, lo cual es útil para planificar con anticipación.
+
+**🎯 Funcionalidades principales:**
+- Visualización por mes o por día.
+- Agrupación y filtrado por múltiples dimensiones.
+- Análisis de tendencias y oportunidades de optimización.
+
+### **📊 Panel de facturación de AWS**
+Muestra un resumen gráfico del uso y costos:
+- Resumen de gastos: cuánto se gastó en el último mes y estimaciones.
+- Gasto mensual por servicio: muestra qué servicios representan más costos.
+
+### **🛠️ Herramientas de administración de costos**
+**🔹 AWS Bills**
+- Desglosa los cargos mensuales por servicio, región y cuenta.
+- Permite ver la información más actualizada de costos y uso.
+
+**🔹 Cost Explorer (Explorador de costos)**
+- Permite visualizar costos a lo largo del tiempo.
+- Funciones:
+  - Ver gráficos de los últimos 13 meses.
+  - Predecir gastos futuros.
+  - Identificar servicios más usados o costosos.
+  - Analizar tráfico y zonas de disponibilidad.
+
+**🔹 AWS Budgets**
+- Establece presupuestos y alertas por correo o SMS.
+- Permite seguimiento mensual, trimestral o anual.
+
+
+**🔹 Informes de costos y uso (Cost and Usage Reports - CUR)**
+- Información detallada por tipo de servicio, operación, región, etc.
+- Se actualiza hasta 1 vez por día y puede guardarse en un bucket de S3.
+
+**✅ Beneficios clave:**
+- Mayor visibilidad y control de gastos.
+- Automatización del seguimiento financiero.
+- Toma de decisiones informadas para optimización de costos.
+
 ---
 
 ## Sección 5: **Soporte técnico**
+### **🧰 ¿Qué es AWS Support?**
+
+Es un servicio que ofrece herramientas y experiencia técnica para apoyar a los usuarios en todo el ciclo de uso de AWS: desde pruebas, hasta producción y operación crítica.
+
+Se brinda soporte para:
+- Experimentación con servicios de AWS
+- Uso en entornos de producción
+- Operaciones críticas para empresas
+
+Elementos clave:
+- TAM (Technical Account Manager): asesores técnicos asignados para orientación proactiva, revisión de arquitectura y comunicación continua.
+- Trusted Advisor: recomienda buenas prácticas para mejorar rendimiento, seguridad y optimizar costos.
+- Support Concierge: equipo especializado en facturación y cuentas no técnicas.
+
+### **📦 Planes de soporte**
+AWS ofrece 4 planes de soporte:
+| Plan           | Descripción breve                                                        |
+| -------------- | ------------------------------------------------------------------------ |
+| **Basic**      | Soporte limitado, acceso a documentación, foros, Trusted Advisor básico. |
+| **Developer**  | Soporte para desarrollo inicial y entornos de prueba.                    |
+| **Business**   | Soporte para producción; incluye acceso 24/7 y asesoría técnica.         |
+| **Enterprise** | Soporte avanzado para cargas críticas. TAM incluido.                     |
+
+### **⏱️ Severidad de los casos y tiempo de respuesta**
+| Severidad   | Definición breve                                      | Plan Enterprise | Plan Business | Plan Developer |
+| ----------- | ----------------------------------------------------- | --------------- | ------------- | -------------- |
+| **Crítico** | Funciones críticas fuera de línea (negocio en riesgo) | 15 min o menos  | 1h o menos    | ❌              |
+| **Urgente** | Afectación significativa al cliente                   | 1h o menos      | 1h o menos    | ❌              |
+| **Alta**    | Funciones importantes degradadas                      | 4h o menos      | 4h o menos    | 12h o menos    |
+| **Normal**  | Errores no críticos, comportamiento anormal           | 12h o menos     | 12h o menos   | 24h o menos    |
+| **Baja**    | Consultas generales o mejoras solicitadas             | 24h o menos     | 24h o menos   | 24h o menos    |
