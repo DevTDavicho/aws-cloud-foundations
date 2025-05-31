@@ -102,7 +102,59 @@ Amazon VPC (Virtual Private Cloud) te permite aprovisionar una red privada virtu
 ---
 
 ## Sección 3: **Redes de VPC**
+### **🌐 Puerta de enlace de internet (IGW)**
+- Permite que las instancias con IP pública se comuniquen con Internet.
+- Se debe:
+  - Adjuntar una IGW a la VPC.
+  - Agregar una ruta 0.0.0.0/0 en la tabla de enrutamiento de la subred pública.
 
+### **🔄 Puerta NAT (Network Address Translation)**
+- Permite que las instancias en subred privada accedan a Internet (para actualizaciones, etc.) sin ser accesibles desde Internet.
+- Se necesita:
+  - Una subred pública con una NAT Gateway o NAT Instance.
+  - Ruta desde la subred privada hacia la NAT.
+
+### **🔄 Uso compartido de VPC**
+- Permite que subredes sean compartidas con otras cuentas dentro de la misma organización (AWS Organizations).
+- Beneficios:
+  - Separación de funciones y recursos.
+  - Grupos de seguridad pueden referenciarse entre cuentas.
+  - Ahorro de costos y administración centralizada.
+
+### **🔗 Interconexión de VPC (VPC Peering)**
+- Permite la comunicación directa entre dos VPC.
+- Reglas:
+  - Las IPs no deben superponerse.
+  - La interconexión no es transitiva (no se propaga entre VPCs).
+  - Se debe actualizar la tabla de rutas en ambas VPC.
+
+### **🔐 AWS Site-to-Site VPN**
+- Conecta la VPC con tu red corporativa a través de Internet de forma segura.
+- Pasos básicos:
+  - Crear una conexión VPN.
+  - Asociarla a una puerta de enlace virtual.
+  - Configurar el enrutamiento y reglas de seguridad.
+
+### **⚡ AWS Direct Connect**
+- Conexión dedicada y privada entre tu red on-premise y AWS.
+- Beneficios:
+  - Menor latencia.
+  - Mayor confiabilidad.
+  - Mejor rendimiento que VPN tradicional.
+  - Usa VLAN 802.1q para separar el tráfico.
+
+### **🔌 Puntos de enlace de VPC**
+- Conectan tu VPC con servicios de AWS sin salir a Internet:
+1. Punto de enlace de interfaz (Interface Endpoint): usa PrivateLink, conecta servicios como S3, DynamoDB o servicios privados.
+2. Punto de enlace de puerta de enlace (Gateway Endpoint): solo para S3 y DynamoDB.
+
+### **🔁 AWS Transit Gateway**
+- Permite conectar múltiples VPC y redes locales desde un solo punto.
+- Es escalable y eficiente para entornos con muchas VPC.
+- Ventajas:
+  - Centraliza el enrutamiento.
+  - Reduce la complejidad de interconexiones punto a punto.
+  - Mejora el rendimiento en arquitecturas grandes.
 
 ---
 
