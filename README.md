@@ -12,6 +12,7 @@ Este repositorio contiene resúmenes de módulos, comandos, configuraciones clav
 - [Módulo 2:](Modulo2_FacturacionEconomia/module2.md) Facturación y economía de la nube
 - [Módulo 3:](Modulo3_InfraestructuraGlobalAWS/module3.md) Información general sobre la infraestructura global de AWS
 - [Módulo 4:](Modulo4_SeguridadNube/module4.md) Seguridad en la nube
+- [Módulo 5:](Modulo5_RedesEntrega/module5.md) Redes y entrega de contenido
 
 ---
 
