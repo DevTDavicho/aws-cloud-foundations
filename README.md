@@ -13,6 +13,7 @@ Este repositorio contiene resúmenes de módulos, comandos, configuraciones clav
 - [Módulo 3:](Modulo3_InfraestructuraGlobalAWS/module3.md) Información general sobre la infraestructura global de AWS
 - [Módulo 4:](Modulo4_SeguridadNube/module4.md) Seguridad en la nube
 - [Módulo 5:](Modulo5_RedesEntrega/module5.md) Redes y entrega de contenido
+- [Módulo 6:](Modulo6_Informatica/) Informática
 
 ---
 
